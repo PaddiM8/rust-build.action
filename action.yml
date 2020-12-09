@@ -1,9 +1,6 @@
 name: 'Rust Release binary'
 description: 'Automate publishing Rust build artifacts for GitHub releases through GitHub Actions'
 inputs:
-  RUSTTARGET:
-    description: 'Output target'
-    required: true
   GITHUB_TOKEN:
     required: true
   EXTRA_FILES:
